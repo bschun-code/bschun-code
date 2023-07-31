@@ -24,5 +24,7 @@ You can click the Preview link to take a look at your changes.
   </tr>
 </table>
 
+<img width="200%" src="assets/hr.gif" />
+
 <img src="assets/rocket.png" /></div>
 
