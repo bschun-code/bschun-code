@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-12-23T21:46:00+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">chunbs的博客</title><subtitle>学习积累</subtitle><entry><title type="html">Cs224n Lecture1</title><link href="http://localhost:4000/2023/12/23/cs224n-lecture1.html" rel="alternate" type="text/html" title="Cs224n Lecture1" /><published>2023-12-23T00:00:00+08:00</published><updated>2023-12-23T00:00:00+08:00</updated><id>http://localhost:4000/2023/12/23/cs224n-lecture1</id><content type="html" xml:base="http://localhost:4000/2023/12/23/cs224n-lecture1.html">&lt;h2 id=&quot;cs224n-lecture1&quot;&gt;CS224n Lecture1&lt;/h2&gt;
-
-&lt;hr /&gt;
-&lt;blockquote&gt;
-  &lt;ol&gt;
-    &lt;li&gt;word2vec&lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/blockquote&gt;</content><author><name></name></author><summary type="html">CS224n Lecture1</summary></entry></feed>
