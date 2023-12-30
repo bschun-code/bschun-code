@@ -1,0 +1,21 @@
+---
+layout: base
+---
+
+<row>
+  <div class="col-sm-12">
+    <h3 style="color:violet;">
+      <i class="far fa-folder-open"></i>&nbsp;分类:&nbsp;{{ page.title }}&nbsp;&nbsp;
+    </h3>
+    <ul>
+      {% for post in site.categories[page.category] %}
+      <li>
+        <h4>
+          <span class="text-muted small">{{ post.date | date_to_string }}&nbsp;&nbsp;</span>
+          <a href="{{ post.url | absolute_url }}">{{ post.title }}</a>
+        </h4>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</row>
