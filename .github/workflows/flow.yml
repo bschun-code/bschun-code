@@ -3,7 +3,7 @@ name: Build and Deploy Demo Site
 on:
   push:
     branches:
-      - main
+      - pages
 jobs:
   deploy_demo_site:
     runs-on: "ubuntu-latest"
