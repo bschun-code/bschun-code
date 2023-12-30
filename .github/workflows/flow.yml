@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - main
-      - demo-site
-
 jobs:
   deploy_demo_site:
     runs-on: "ubuntu-latest"
