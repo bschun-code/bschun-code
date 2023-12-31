@@ -2,6 +2,7 @@
 
 module MinimaDemo
   class << self
+    safe true
     attr_accessor :available_skins
   end
 
@@ -15,12 +16,14 @@ module MinimaDemo
   end
 
   class SkinPage < Jekyll::PageWithoutAFile
+    safe true
     def initialize(site, skin_name)
       super(site, site.source, "assets/css", "#{skin_name}.scss")
     end
   end
 
   class StyleSheetGenerator < Jekyll::Generator
+    safe true
     def generate(site)
       MinimaDemo.available_skins.each do |skin_name|
         site.pages << SkinPage.new(site, skin_name).tap do |page|
